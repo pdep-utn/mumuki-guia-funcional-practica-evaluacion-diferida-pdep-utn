@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: ciclar
+  inspection: Not:HasUsage:cycle

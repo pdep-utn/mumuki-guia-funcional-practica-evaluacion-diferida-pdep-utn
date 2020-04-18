@@ -1,0 +1,1 @@
+Tip: usar `cycle :: [a] -> [a]`

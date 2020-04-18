@@ -1,0 +1,1 @@
+esDivisorDe n m = mod m n == 0

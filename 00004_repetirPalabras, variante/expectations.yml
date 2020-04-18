@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: repetirPalabras
+  inspection: HasUsage:zipWith
+- binding: repetirPalabras
+  inspection: HasUsage:repeat
+- binding: repetirPalabras
+  inspection: Not:HasUsage:iterate

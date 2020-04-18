@@ -1,0 +1,1 @@
+Escribí la función `esMultiploDeTres`, que dice si un número es múltiplo de tres. ¡Pero hay una vuelta de tuerca!: hacelo usando la función `cycle`.

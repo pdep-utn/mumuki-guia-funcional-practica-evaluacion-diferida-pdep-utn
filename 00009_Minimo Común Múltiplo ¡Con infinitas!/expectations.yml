@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: mcm
+  inspection: HasBinding
+- binding: mcm
+  inspection: HasUsage:esDivisorDe
