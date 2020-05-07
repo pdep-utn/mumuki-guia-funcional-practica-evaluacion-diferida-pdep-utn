@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: repetirPalabras
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: repetirPalabras
   inspection: HasUsage:zipWith
-- binding: repetirPalabras
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: repetirPalabras
   inspection: HasUsage:repeat
-- binding: repetirPalabras
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: repetirPalabras
   inspection: Not:HasUsage:iterate

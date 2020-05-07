@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: mcm
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mcm
   inspection: HasBinding
-- binding: mcm
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mcm
   inspection: HasUsage:esDivisorDe

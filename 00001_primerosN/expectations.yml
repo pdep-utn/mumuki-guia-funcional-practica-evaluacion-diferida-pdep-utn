@@ -1,4 +1,5 @@
 ---
 expectations:
-- binding: primerosN
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: primerosN
   inspection: HasUsage:iterate
