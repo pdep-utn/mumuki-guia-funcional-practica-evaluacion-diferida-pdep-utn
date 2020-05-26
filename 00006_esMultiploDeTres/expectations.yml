@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: esMultiploDeTres
   inspection: Not:Uses:rem
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esMultiploDeTres
+  inspection: Uses:iterate
