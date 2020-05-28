@@ -15,3 +15,9 @@ it "esMultiploDeTres 20 == False" $ do
 
 it "esMultiploDeTres 30 == True" $ do 
   esMultiploDeTres 30 `shouldBe` True
+  
+it "esMultiploDeTres -6 == True" $ do 
+  esMultiploDeTres (-6) `shouldBe` True
+  
+it "esMultiploDeTres -5 == False" $ do 
+  esMultiploDeTres (-5) `shouldBe` False
