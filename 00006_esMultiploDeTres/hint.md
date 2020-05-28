@@ -1,13 +1,13 @@
-El tipo de `iterate` es:
+El tipo de `cycle` es:
 
 ```Haskell
-iterate :: (a -> a) -> a -> [a]
+cycle :: [a] -> [a]
 ```
 
 Y esta aplicación devuelve esta lista infinita:
 
 ```Haskell
-ム iterate (*2) 1
-[1,2,4,8,16,32,64 .....
+ム cycle [1,2,3]
+[1,2,3,1,2,3,1,2,3 .....
 ```
 
