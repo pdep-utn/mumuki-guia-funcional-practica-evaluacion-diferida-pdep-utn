@@ -1,0 +1,1 @@
+¡Exacto! Es la misma función que hiciste en el punto anterior, `esDivisiblePorTres`. ¿Viste cuántas soluciones nuevas podemos pensar en un lenguaje con listas infinitas y evaluación diferida? Es una herramienta muy poderosa.
